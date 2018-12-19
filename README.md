@@ -16,6 +16,7 @@ Featuring:
 > If you are checking out this code to test without using this guide, please remember to follow these important steps in order:
 > 
 > 1. `npm install` in Lerna root directory
+> 2. `lerna bootstrap` in the `packages/my-react-app` directory
 > 2. `npm install` in the `packages/my-react-app` directory
 > 3. `npx babel-loader-lerna-cra` in the Lerna root directory
 
@@ -271,7 +272,7 @@ Create a `packages/comp-button/package.json` file like this:
 
 ```json
 {
-  "name": "@project/comp-button",
+  "name": "@my-project/comp-button",
   "version": "0.1.0",
   "description": "A simple button component",
   "main": "dist/index.js",
